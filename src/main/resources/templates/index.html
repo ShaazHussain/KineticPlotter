@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Reaction Rate Plots</title>
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/css/style.css">
+</head>
+<body>
+<h1>Reaction Rate Plots</h1>
+<div class="button-container">
+    <button onclick="showPlot('concentrationPlot')">Show Concentration vs. Time</button>
+    <button onclick="showPlot('ratePlot')">Show Reaction Rate vs. Time</button>
+</div>
+<div id="concentrationPlot" class="plot-container">
+    <h2>Concentration vs. Time</h2>
+    <img th:src="@{conc_vs_time.png}" alt="Concentration vs Time Plot" />
+</div>
+<div id="ratePlot" class="plot-container">
+    <h2>Reaction Rate vs. Time</h2>
+    <img th:src="@{rate_vs_time.png}" alt="Reaction Rate vs Time Plot"  />
+</div>
+<script src="http://localhost:8080/js/script.js"></script>
+</body>
+</html>
