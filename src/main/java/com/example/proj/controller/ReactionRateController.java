@@ -8,7 +8,7 @@ public class ReactionRateController {
 
     @GetMapping("/index")
     public String index() {
-        // Return the name of the HTML template (index.html) without the file extension
+        //To return the name of the HTML template (index.html) without the file extension
         return "index";
     }
 }
