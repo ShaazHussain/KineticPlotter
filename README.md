@@ -6,7 +6,7 @@ This tool allows users to input concentration and time data and provides insight
 
 FEATURES:
 
-(i)   Data Input: Enter concentration and time data directly through the web interface.
+(i)   Data Input: Enter concentration and time data through Java Scanner input in class ReactionRatePrediction.
 
 (ii)  Reaction Rate Calculation: Automatically calculates the reaction rate at any given point.
 
